@@ -63,7 +63,7 @@ $(window).load(function(){
 		googleMap.ready=true
 		var cssPath='.google_map'
 			,holder=$(cssPath)
-			,src='http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed'
+			,src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1223.906339272098!2d30.734610622900682!3d46.47690435042299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c63185337397a7%3A0xbf961e7668df339b!2sUspenska%20St%2C%2066%20%D0%B0%2C%20Odesa%2C%20Odes&#39;ka%20oblast%2C%20Ukraine%2C%2065000!5e0!3m2!1sen!2sus!4v1715597632682!5m2!1sen!2sus'
 			,str='<iframe class="blo" width="'+holder.width()+'" height="'+holder.height()+'" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+src+'"></iframe>'
 		holder.html(str)
 	}
